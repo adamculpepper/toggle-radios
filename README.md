@@ -13,3 +13,5 @@ A CSS only toggle switch for form input radios (not Bootstrap dependent)
     <label><input type="radio" name="mode" value="mode3"><span>Mode 3</span></label>
 </div>
 ```
+
+#### See Also [Toggle Switchy](https://github.com/adamculpepper/toggle-switchy) - A CSS only toggle switch for form input checkboxes (not Bootstrap dependent)
