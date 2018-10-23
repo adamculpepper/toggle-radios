@@ -14,4 +14,4 @@ A CSS only toggle switch for form input radios (not Bootstrap dependent)
 </div>
 ```
 
-#### See Also [Toggle Switchy](https://github.com/adamculpepper/toggle-switchy) - A CSS only toggle switch for form input checkboxes (not Bootstrap dependent)
+#### See also [Toggle Switchy](https://github.com/adamculpepper/toggle-switchy) - A CSS only toggle switch for form input checkboxes (not Bootstrap dependent)
