@@ -1,5 +1,4 @@
 # Toggle Radios
-A CSS only toggle switch for form input checkboxes (not Bootstrap dependent)
 A CSS only toggle switch for form input radios (not Bootstrap dependent)
 
 ### CSS
