@@ -12,14 +12,14 @@ Coming soon.
 ### HTML
 ```
 <div class="toggle-radio">
-	<input type="radio" name="example_default" id="example_default_mode1" value="mode1">
-	<label for="example_default_mode1">Mode 1</label>
+	<input type="radio" name="mode" id="mode1" value="mode1">
+	<label for="mode1">Mode 1</label>
 
-	<input type="radio" name="example_default" id="example_default_mode2" value="mode2" checked>
-	<label for="example_default_mode2">Mode 2</label>
+	<input type="radio" name="mode" id="mode2" value="mode2">
+	<label for="mode2">Mode 2</label>
 
-	<input type="radio" name="example_default" id="example_default_mode3" value="mode3">
-	<label for="example_default_mode3">Mode 3</label>
+	<input type="radio" name="mode" id="mode3" value="mode3">
+	<label for="mode3">Mode 3</label>
 </div>
 ```
 
