@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Toggle Radios - Pure CSS toggle switchs for form input radios</title>
+		<meta name="author" content="Toggle Radios">
+		<meta name="description" content="Pure CSS toggle switchs for form input radios">
+		<!-- <link href="/favicon.ico" rel="shortcut icon"> -->
+		<!-- <link href="/favicon.png" rel="apple-touch-icon-precomposed"> -->
+
+		<!-- styles -->
+		<link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+		<link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/adamculpepper/toggle-radios@latest/toggle-radios.css">
+		<link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/adamculpepper/toggle-radios@latest/docs/assets/css/custom.css">
+
+		<!-- open graph meta -->
+		<meta property="og:title" content="Toggle Radios">
+		<meta property="og:site_name" content="Toggle Radios">
+		<meta property="og:description" content="Pure CSS toggle switchs for form input radios">
+		<meta property="og:url" content="https://adamculpepper.github.io/toggle-radios">
+		<meta property="og:image" content="http://adamculpepper.net/repos/preview-toggle-radios.png">
+		<meta name="twitter:image" content="http://adamculpepper.net/repos/preview-toggle-radios.png">
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 py-3">
+						<div class="row">
+							<div class="col-lg-9">
+								<h1>Toggle Radios<span class="h5 ml-2">v1.1</span></h1>
+								<h2 class="h4">Pure CSS toggle switchs for form input radios</h2>
+							</div>
+							<div class="col-lg-3 d-block d-lg-flex align-items-center mt-4 mt-lg-0">
+								<div class="d-inline-block text-center ml-auto">
+									<a class="btn btn-primary ml-auto d-block" href="https://github.com/adamculpepper/toggle-radios">Edit on Github</a>
+									Docs in README
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="content" class="container mt-4">
+			<div class="row">
+				<div class="col-lg-6">
+
+					<div class="row mb-4">
+						<div class="col-12">
+							<h3>Default</h3>
+						</div>
+						<div class="col-12">
+							<div class="toggle-radio">
+								<input type="radio" name="example_default" id="example_default_mode1" value="mode1">
+								<label for="example_default_mode1">Mode 1</label>
+
+								<input type="radio" name="example_default" id="example_default_mode2" value="mode2" checked>
+								<label for="example_default_mode2">Mode 2</label>
+
+								<input type="radio" name="example_default" id="example_default_mode3" value="mode3">
+								<label for="example_default_mode3">Mode 3</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="row mb-4">
+						<div class="col-12">
+							<h3>Rounded</h3>
+						</div>
+						<div class="col-12">
+							<div class="toggle-radio" data-style="rounded">
+								<input type="radio" name="example_rounded" id="example_rounded_mode1" value="mode1">
+								<label for="example_rounded_mode1">Mode 1</label>
+
+								<input type="radio" name="example_rounded" id="example_rounded_mode2" value="mode2" checked>
+								<label for="example_rounded_mode2">Mode 2</label>
+
+								<input type="radio" name="example_rounded" id="example_rounded_mode3" value="mode3">
+								<label for="example_rounded_mode3">Mode 3</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="row mb-4">
+						<div class="col-12">
+							<h3>Square</h3>
+						</div>
+						<div class="col-12">
+							<div class="toggle-radio" data-style="square">
+								<input type="radio" name="example_square" id="example_square_mode1" value="mode1">
+								<label for="example_square_mode1">Mode 1</label>
+
+								<input type="radio" name="example_square" id="example_square_mode2" value="mode2" checked>
+								<label for="example_square_mode2">Mode 2</label>
+
+								<input type="radio" name="example_square" id="example_square_mode3" value="mode3">
+								<label for="example_square_mode3">Mode 3</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="row mb-4">
+						<div class="col-12">
+							<h3>Disabled</h3>
+						</div>
+						<div class="col-12">
+							<div class="toggle-radio">
+								<input type="radio" name="example_disabled" id="example_disabled_mode1" value="mode1" disabled>
+								<label for="example_disabled_mode1">Mode 1</label>
+
+								<input type="radio" name="example_disabled" id="example_disabled_mode2" value="mode2" checked>
+								<label for="example_disabled_mode2">Mode 2</label>
+
+								<input type="radio" name="example_disabled" id="example_disabled_mode3" value="mode3">
+								<label for="example_disabled_mode3">Mode 3</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+
+					<div class="row mb-4">
+						<div class="col-12">
+							<h3>Colors</h3>
+						</div>
+						<div class="col-12">
+							<div class="mb-2">
+								<div class="toggle-radio" data-color="red">
+									<input type="radio" name="example_color_red" id="example_color_red_mode1" value="mode1">
+									<label for="example_color_red_mode1">Mode 1</label>
+
+									<input type="radio" name="example_color_red" id="example_color_red_mode2" value="mode2" checked>
+									<label for="example_color_red_mode2">Mode 2</label>
+
+									<input type="radio" name="example_color_red" id="example_color_red_mode3" value="mode3">
+									<label for="example_color_red_mode3">Mode 3</label>
+								</div>
+							</div>
+
+							<div class="mb-2">
+								<div class="toggle-radio" data-color="orange">
+									<input type="radio" name="example_color_orange" id="example_color_orange_mode1" value="mode1">
+									<label for="example_color_orange_mode1">Mode 1</label>
+
+									<input type="radio" name="example_color_orange" id="example_color_orange_mode2" value="mode2" checked>
+									<label for="example_color_orange_mode2">Mode 2</label>
+
+									<input type="radio" name="example_color_orange" id="example_color_orange_mode3" value="mode3">
+									<label for="example_color_orange_mode3">Mode 3</label>
+								</div>
+							</div>
+
+							<div class="mb-2">
+								<div class="toggle-radio" data-color="yellow">
+									<input type="radio" name="example_color_yellow" id="example_color_yellow_mode1" value="mode1">
+									<label for="example_color_yellow_mode1">Mode 1</label>
+
+									<input type="radio" name="example_color_yellow" id="example_color_yellow_mode2" value="mode2" checked>
+									<label for="example_color_yellow_mode2">Mode 2</label>
+
+									<input type="radio" name="example_color_yellow" id="example_color_yellow_mode3" value="mode3">
+									<label for="example_color_yellow_mode3">Mode 3</label>
+								</div>
+							</div>
+
+							<div class="mb-2">
+								<div class="toggle-radio" data-color="green">
+									<input type="radio" name="example_color_green" id="example_color_green_mode1" value="mode1">
+									<label for="example_color_green_mode1">Mode 1</label>
+
+									<input type="radio" name="example_color_green" id="example_color_green_mode2" value="mode2" checked>
+									<label for="example_color_green_mode2">Mode 2</label>
+
+									<input type="radio" name="example_color_green" id="example_color_green_mode3" value="mode3">
+									<label for="example_color_green_mode3">Mode 3</label>
+								</div>
+							</div>
+
+							<div class="mb-2">
+								<div class="toggle-radio" data-color="blue">
+									<input type="radio" name="example_color_blue" id="example_color_blue_mode1" value="mode1">
+									<label for="example_color_blue_mode1">Mode 1</label>
+
+									<input type="radio" name="example_color_blue" id="example_color_blue_mode2" value="mode2" checked>
+									<label for="example_color_blue_mode2">Mode 2</label>
+
+									<input type="radio" name="example_color_blue" id="example_color_blue_mode3" value="mode3">
+									<label for="example_color_blue_mode3">Mode 3</label>
+								</div>
+							</div>
+
+							<div class="mb-2">
+								<div class="toggle-radio" data-color="purple">
+									<input type="radio" name="example_color_purple" id="example_color_purple_mode1" value="mode1">
+									<label for="example_color_purple_mode1">Mode 1</label>
+
+									<input type="radio" name="example_color_purple" id="example_color_purple_mode2" value="mode2" checked>
+									<label for="example_color_purple_mode2">Mode 2</label>
+
+									<input type="radio" name="example_color_purple" id="example_color_purple_mode3" value="mode3">
+									<label for="example_color_purple_mode3">Mode 3</label>
+								</div>
+							</div>
+
+							<div class="mb-2">
+								<div class="toggle-radio" data-color="gray">
+									<input type="radio" name="example_color_gray" id="example_color_gray_mode1" value="mode1">
+									<label for="example_color_gray_mode1">Mode 1</label>
+
+									<input type="radio" name="example_color_gray" id="example_color_gray_mode2" value="mode2" checked>
+									<label for="example_color_gray_mode2">Mode 2</label>
+
+									<input type="radio" name="example_color_gray" id="example_color_gray_mode3" value="mode3">
+									<label for="example_color_gray_mode3">Mode 3</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="d-lg-flex">
+				<div class="d-block d-md-inline-block mb-3 mb-md-0">
+					<a href="/">Toggle Radios</a>
+				</div>
+				<span class="ml-2 hidden-sm-down">is</span>
+				<span class="ml-2"><i class="fas fa-code"></i><span class="sr-only">built</span></span>
+				<span class="ml-2">with</span>
+				<span class="ml-2"><i class="fas fa-heart"></i><span class="sr-only">love</span></span>
+				<span class="ml-2">by</span>
+				<a class="ml-1" target="_blank" rel="referrer nofollow" href="http://adamculpepper.net"><img class="rounded-circle" src="https://cdn.louisianagroups.com/assets/img/adam.jpg" alt="Contributor"></a>
+				<div class="d-block d-lg-inline-block mt-3 mt-lg-0 ml-auto">
+					<a target="_blank" href="https://github.com/adamculpepper/toggle-radios">edit this page<i class="fab fa-github ml-2"></i></a>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+</html>
