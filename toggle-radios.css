@@ -14,7 +14,6 @@ https://github.com/adamculpepper/toggle-radios
 /* Rounded corners */
 .toggle-radio input:first-of-type + label {border-radius:4px 0 0 4px;}
 .toggle-radio input:last-of-type + label {border-radius:0 4px 4px 0;}
-/*.toggle-radio {border-radius:4px; overflow:hidden;}*/
 
 /* //////////////////////////
 CORE STYLES BELOW - NO TOUCHY
