@@ -12,9 +12,14 @@ Coming soon.
 ### HTML
 ```
 <div class="toggle-radio">
-    <label><input type="radio" name="mode" value="mode1"><span>Mode 1</span></label>
-    <label><input checked type="radio" name="mode" value="mode2"><span>Mode 2</span></label>
-    <label><input type="radio" name="mode" value="mode3"><span>Mode 3</span></label>
+	<input type="radio" name="mode" id="mode1" value="mode1">
+	<label for="mode1">Mode 1</label>
+
+	<input type="radio" name="mode" id="mode2" value="mode2">
+	<label for="mode2">Mode 2</label>
+
+	<input type="radio" name="mode" id="mode3" value="mode3">
+	<label for="mode3">Mode 3</label>
 </div>
 ```
 
