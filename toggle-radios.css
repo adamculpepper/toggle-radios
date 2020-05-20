@@ -7,12 +7,14 @@ https://github.com/adamculpepper/toggle-radios
 /* Customizable styles */
 
 /* Colors: Default (blue) */
-.toggle-radio {background:#f5f5f5; border:1px solid #ccc;}
+.toggle-radio > input + label {background:#f5f5f5; border:1px solid #ccc; border-width:1px 0 1px 1px;}
+.toggle-radio > input:last-of-type + label {border-right-width:1px;}
 .toggle-radio > input:checked + label {background:lightblue;}
-.toggle-radio > input + label:not(:last-of-type) {border-right:1px solid #ccc;}
 
 /* Rounded corners */
-.toggle-radio {border-radius:4px;}
+.toggle-radio input:first-of-type + label {border-radius:4px 0 0 4px;}
+.toggle-radio input:last-of-type + label {border-radius:0 4px 4px 0;}
+/*.toggle-radio {border-radius:4px; overflow:hidden;}*/
 
 /* //////////////////////////
 CORE STYLES BELOW - NO TOUCHY
@@ -21,7 +23,7 @@ CORE STYLES BELOW - NO TOUCHY
 .toggle-radio > input[type='radio'] {display:none;}
 .toggle-radio > input[disabled] + label {opacity:0.50;}
 .toggle-radio > input[disabled] + label:hover {cursor:not-allowed;}
-.toggle-radio > input + label {display:inline-block; margin-bottom:0; padding:5px 10px; float:left; cursor:pointer;}
+.toggle-radio > input + label {display:inline-block; margin-bottom:0; padding:5px 10px; cursor:pointer;}
 
 /* Transitions */
 .toggle-radio > input:checked + label {transition:background 300ms linear;}
@@ -31,38 +33,39 @@ CORE STYLES ABOVE - NO TOUCHY
 ////////////////////////// */
 
 /* Style: Rounded */
-.toggle-radio[data-style='rounded'] {border-radius:500px;}
+.toggle-radio[data-style='rounded'] > input:first-of-type + label {border-radius:500px 0 0 500px;}
+.toggle-radio[data-style='rounded'] > input:last-of-type + label {border-radius:0 500px 500px 0;}
 
 /* Style: Square */
-.toggle-radio[data-style='square'] {border-radius:0;}
+.toggle-radio[data-style='square'] > input + label {border-radius:0;}
 
 /* Color */
 .toggle-radio[data-color] > input + label					{color:#fff;}
 
 /* Color: Red */
-.toggle-radio[data-color='red'] > input + label				{background:#e74c3c;}
+.toggle-radio[data-color='red'] > input + label				{background:#e74c3c; border-color:#9a0000;}
 .toggle-radio[data-color='red'] > input:checked + label		{background:#9a0000;}
 
 /* Color: Orange */
-.toggle-radio[data-color='orange'] > input + label			{background:#e67e22;}
+.toggle-radio[data-color='orange'] > input + label			{background:#e67e22; border-color:#993100;}
 .toggle-radio[data-color='orange'] > input:checked + label	{background:#993100;}
  
 /* Color: Yellow */
-.toggle-radio[data-color='yellow'] > input + label			{background:#f1c30f;}
+.toggle-radio[data-color='yellow'] > input + label			{background:#f1c30f; border-color:#a47600;}
 .toggle-radio[data-color='yellow'] > input:checked + label	{background:#a47600;}
 
 /* Color: Green */
-.toggle-radio[data-color='green'] > input + label			{background:#2ecc71;}
+.toggle-radio[data-color='green'] > input + label			{background:#2ecc71; border-color:#007f24;}
 .toggle-radio[data-color='green'] > input:checked + label	{background:#007f24;}
 
 /* Color: Blue */
-.toggle-radio[data-color='blue'] > input + label			{background:#3498db;}
+.toggle-radio[data-color='blue'] > input + label			{background:#3498db; border-color:#004b8e;}
 .toggle-radio[data-color='blue'] > input:checked + label	{background:#004b8e;}
 
 /* Color: Purple */
-.toggle-radio[data-color='purple'] > input + label			{background:#aa66cc;}
+.toggle-radio[data-color='purple'] > input + label			{background:#aa66cc; border-color:#5d197f;}
 .toggle-radio[data-color='purple'] > input:checked + label	{background:#5d197f;}
 
 /* Color: Gray */
-.toggle-radio[data-color='gray'] > input + label			{background:#555555;}
+.toggle-radio[data-color='gray'] > input + label			{background:#555555; border-color:#080808;}
 .toggle-radio[data-color='gray'] > input:checked + label	{background:#080808;}
