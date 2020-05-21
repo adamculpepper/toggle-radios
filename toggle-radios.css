@@ -22,7 +22,7 @@ https://github.com/adamculpepper/toggle-radios
 /* //////////////////////////
 CORE STYLES BELOW - NO TOUCHY
 ////////////////////////// */
-.toggle-radio {display:inline-block;}
+.toggle-radio {display:inline-block; vertical-align:middle;}
 .toggle-radio > input[type='radio'] {display:none;}
 .toggle-radio > input[disabled] + label {opacity:0.50;}
 .toggle-radio > input[disabled] + label:hover {cursor:not-allowed;}
